@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+  //font-family: 'Varela Round', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #8c8f94;
+}
+
+a {
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* header */
+
+header {
+  position: relative;
+  height: 100%;
+  background: url("../img/heder-bg.png") no-repeat center top / cover;
+  font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #26272d;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.nav-item {
+  padding-right: 20px;
+}
+
+.logo {
+  position: absolute;
+  left: 40%;
+  top: 0;
+  padding-top: 27px;
+}
+
+.navbar-button {
+  position: absolute;
+  width: 132px;
+  background: #267df4 url("../img/appleIcon.png") no-repeat 15px 10px;
+  border-radius: 42px;
+  top: 0;
+  right: 0;
+  margin-top: 17px;
+
+  a {
+    display: block;
+    color: #fff;
+    padding: 9px 0 9px 45px;
+  }
+}
+
+.navbar-button:hover {
+  opacity: 0.7;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 62px;
+  color: #26272d;
+  letter-spacing: -2.5px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.desc {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.header-button {
+  margin: 0 auto;
+  width: 204px;
+  background: url("../img/PlayIcon.png") no-repeat 30px 16px;
+  border: 1px solid #d9dcde;
+  border-radius: 42px;
+  margin-top: 75px;
+  margin-bottom: 40px;
+
+  a {
+    display: block;
+    color: #26272d;
+    line-height: 42px;
+    padding-left: 65px;
+  }
+}
+
+.header-button:hover {
+  background: #d9dcde url("../img/PlayIcon.png") no-repeat 30px 16px;
+}
+
+.phone {
+  width: 478px;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+/* feautures */
+
+.feautures__wrap {
+  background: url("../img/Divdier.png") no-repeat;
+  background-position: bottom;
+  padding-top: 125px;
+  padding-bottom: 89px;
+
+  h3 {
+    font-size: 26px;
+    font-weight: 300;
+    color: #26272d;
+    padding-top: 95px;
+    padding-bottom: 25px;
+  }
+
+  p {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+}
+
+.feautures__left {
+  background: url("../img/LockIcon.png") no-repeat;
+  background-position: 37px top;
+  padding: 0 33px;
+}
+
+.feautures__right {
+  background: url("../img/ClockIcon.png") no-repeat;
+  background-position: 37px top;
+  padding: 0 33px;
+}
+
+/* feature iphone */
+
+.feature-iphone {
+  background: url("../img/iPhone.png") no-repeat;
+  background-position: left 127px;
+}
+
+.feature-iphone__wrap {
+  padding-top: 265px;
+  padding-bottom: 273px;
+
+  h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 42px;
+    color: #26272d;
+    padding-bottom: 70px;
+
+  }
+  p {
+    padding-bottom: 15px;
+  }
+}
+
+.feauture-iphone-button {
+  margin-top: 40px;
+}
+
+.feature-iphone-button__left {
+  width: 202px;
+  height: 42px;
+  border-radius: 42px;
+  text-align: center;
+  background: #267df4 url("../img/ArrowIcon.png") no-repeat 170px 15px;
+
+  a {
+    display: block;
+    color: #ffffff;
+    line-height: 42px;
+  }
+}
+
+.feature-iphone-button__left:hover {
+  opacity: 0.7;
+}
+
+.feature-iphone-button__right {
+  width: 140px;
+  height: 42px;
+  border-radius: 42px;
+  border: 1px solid #e9e9ea;
+  text-align: center;
+
+  a {
+    display: block;
+    color: #26272d;
+    line-height: 42px;
+  }
+}
+
+.feature-iphone-button__right:hover {
+  background: #e9e9ea;
+}
+
+/* feature map */
+
+.feature-map {
+  background: url("../img/worldMap.png") no-repeat;
+  background-position: right 167px;
+}
+
+.feauture-map__wrap {
+    padding-top: 167px;
+    padding-bottom: 200px;
+
+  h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 42px;
+    color: #26272d;
+    padding-bottom: 50px;
+  }
+
+  p {
+    padding-bottom: 15px;
+  }
+}
+
+.partners {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #26272d;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+

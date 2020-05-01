@@ -1,0 +1,50 @@
+@media (min-width: 1200px){
+  .feature-iphone-button__right {
+    margin-left: -50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .feature-iphone {
+    background-position: left 60px;
+  }
+  .feature-iphone__wrap {
+    padding: 850px 20px 60px 20px;
+  }
+  .feature-map {
+    background-position: right 60px;
+  }
+  .feauture-map__wrap {
+    padding: 600px 20px 60px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    left: 30%;
+  }
+  .feautures__wrap {
+    padding-top: 60px;
+  }
+  .feautures__right {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .feature-iphone-button__left {
+    background: #267df4;
+    width: 100%;
+  }
+  .feature-iphone-button__right {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo {
+    left: 25%;
+  }
+}
